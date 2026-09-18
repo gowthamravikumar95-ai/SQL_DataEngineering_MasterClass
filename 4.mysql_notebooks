@@ -5,12 +5,12 @@ Perfect for both beginners and professionals to master SQL easily. Check it out 
 
 https://www.python.org/downloads/
 
-mkdir sql_notebook
-cd sql_notebook
+=> mkdir sql_notebook
+=> cd sql_notebook
 
 python -m venv env
 
-env\Scripts\activate
+=> env\Scripts\activate
 
 pip install --upgrade pip
 
@@ -22,7 +22,7 @@ pip install prettytable==0.7.2
 
 pip install mysql-connector-python
 
-jupyter notebook
+=> jupyter notebook
 
 %load_ext sql
 %sql mysql+mysqlconnector://root:root@localhost/test
